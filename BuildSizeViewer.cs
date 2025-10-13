@@ -39,7 +39,7 @@ using System.Text.RegularExpressions;
 using UnityEditor;
 using UnityEngine;
 
-namespace TriggerSegfault
+namespace TriggerSegfault.editor
 {
     // TODO: Check if new builds since last Read Build Logs (using Bundle Name
     // as unique ID).
@@ -186,7 +186,7 @@ namespace TriggerSegfault
         #endregion
 
         #region OnGUI and Events
-        [MenuItem(MenuPath)]
+        [MenuItem(MenuPath, false)]
         static void ShowWindow()
         {
             EditorWindow.GetWindow<BuildSizeViewer>();
