@@ -1,4 +1,4 @@
-﻿// VRC Build Size Viewer
+// VRC Build Size Viewer
 // Licensed under the MIT License.
 // Created by MunifiSense
 // <https://github.com/MunifiSense/VRChat-Build-Size-Viewer>
